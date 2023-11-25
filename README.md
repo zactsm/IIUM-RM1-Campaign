@@ -16,3 +16,5 @@
 
    - References to external JavaScript files `<script src="script.js"></script>` containing additional functionality or event handlers.
    - References to externet CSS files `<link rel="stylesheet" href="styles.css">` containing additional styling.
+  
+   - Hakimisch. (2023, June 16). hakimisch/e-commerce-keyboard. GitHub. https://github.com/hakimisch/e-commerce-keyboard
