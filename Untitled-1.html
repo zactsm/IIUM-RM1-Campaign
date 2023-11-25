@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>RM1 Campaign Program</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header>
+        <img src="iium_logo.png" alt="IIUM Logo">
+        <h1 class="title1">RM1 Campaign</h1>
+        <p class="tagline">Let your contributions be</p>
+        <p class="bigtagline">PERPETUAL</p>
+        <p class="tagline">for the pleasure of Allah SWT</p>
+        <p class="quranic-verse">"The example of those who spend their wealth in the way of Allah is like a seed [of
+            grain] which grows seven spikes; in each spike is a hundred grains. And Allah multiplies [His reward] for
+            whom He wills. And Allah is all-Encompassing and Knowing."</p>
+        <p class="quranic-verse">Al-Baqarah: 261</p>
+        <button class="button1" id="scrollToForm">Scroll to Form</button>
+        <button class="button1" id="scrollToContact">Scroll to Contact</button>
+    </header>
+
+    <main>
+        <section class="form-section">
+            <h2 class="h2">Monthly Salary Deduction Form</h2>
+            <form id="salary-deduction-form">
+                <input class="nameInput" type="text" id="name" name="name" placeholder="Full Name" required>
+                <input class="staffInput" type="number" id="staffno" name="staffno" placeholder="Staff No." required>
+                <input class="kcdioInput" type="text" id="kcdio" name="kcdio" placeholder="K/C/D/I/O" required>
+                <input class="noInput" type="number" id="contactno" name="contactno" placeholder="Contact No." required>
+                <input class="emailInput" type="email" id="email" name="email" placeholder="Email Address" required>
+                <label for="amount">Amount to Deduct</label>
+                <div class="container">
+                    <input class="amount" id="amount" name="amount" placeholder="RM" readonly>
+                    <input class="amount2" type="number" id="amount" name="amount" required>
+                </div>
+
+                <p>The above salary deduction will take effect</p>
+                <p>from</p>
+                <input type="month" id="startMonth" name="startMonth">
+                <p>until</p>
+                <input type="month" id="endMonth" name="endMonth">
+                <p>or further notice.</p>
+
+                <p>For Kulliyyah of
+                    <select id="kulliyyah" name="kulliyyah" required>
+                        <optgroup label="Gombak">
+                            <option value="irk">Islamic Revealed Knowledge and Human Sciences</option>
+                            <option value="ict">Information and Communication Technology</option>
+                            <option value="koe">Engineering</option>
+                            <option value="kaed">Architecture and Environmental Design</option>
+                            <option value="kenms">Economics and Management Sciences</option>
+                            <option value="aikol">Law</option>
+                            <option value="koed">Education</option>
+                        </optgroup>
+                        <optgroup label="Kuantan">
+                            <option value="kon">Nursing</option>
+                            <option value="kod">Dentistry</option>
+                            <option value="kos">Science</option>
+                            <option value="kahs">Allied Health Sciences</option>
+                            <option value="kop">Pharmacy</option>
+                            <option value="kom">Medicine</option>
+                        </optgroup>
+                        <optgroup label="Pagoh">
+                            <option value="klm">Language Management</option>
+                        </optgroup>
+                    </select>
+                </p>
+
+                <label for="payment-method">Payment Method:</label>
+                <select id="payment-method" name="payment-method" required>
+                    <option value="credit">Credit Card/Debit Card</option>
+                    <option value="debit">Online Banking (FPX)</option>
+                    <option value="bank">Bank Transfer</option>
+                </select>
+
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+
+        <section class="contact-info">
+            <h2>IIUM Endowment Fund Contact Information</h2>
+            <p>IIUM Endowment Fund</p>
+            <p>Level 3, Rectory Building</p>
+            <p>International Islamic University Malaysia</p>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
