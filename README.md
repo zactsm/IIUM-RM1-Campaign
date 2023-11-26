@@ -19,4 +19,4 @@
   
    - Hakimisch. (2023, June 16). hakimisch/e-commerce-keyboard. GitHub. https://github.com/hakimisch/e-commerce-keyboard
 
-This site was built using [GitHub Pages](https://zactsm.github.io/IIUM-RM1-Campaign/rm1campaign.html).
+Check out this [website](https://zactsm.github.io/IIUM-RM1-Campaign/rm1campaign.html) now!
