@@ -18,3 +18,5 @@
    - References to externet CSS files `<link rel="stylesheet" href="styles.css">` containing additional styling.
   
    - Hakimisch. (2023, June 16). hakimisch/e-commerce-keyboard. GitHub. https://github.com/hakimisch/e-commerce-keyboard
+
+This site was built using [GitHub Pages](https://zactsm.github.io/IIUM-RM1-Campaign/rm1campaign.html).
