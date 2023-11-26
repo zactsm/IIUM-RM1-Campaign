@@ -1,19 +1,132 @@
-const scrollToFormButton = document.getElementById('scrollToForm');
-const scrollToContactButton = document.getElementById('scrollToContact');
-const formSection = document.querySelector('.form-section');
-const contactSection = document.querySelector('.contact-info');
-
-function scrollToSection(section) {
-  window.scrollTo({
-    top: section.offsetTop,
-    behavior: 'smooth'
-  });
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url('bgimg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-scrollToFormButton.addEventListener('click', function () {
-  scrollToSection(formSection);
-});
+header {
+  text-align: center;
+  padding: 5%;
+  background-color: #f2f2f2;
+}
 
-scrollToContactButton.addEventListener('click', function () {
-  scrollToSection(contactSection);
-});
+img {
+  max-width: 150px;
+  height: auto;
+}
+
+.button1 {
+  background-color: #00928F;
+}
+
+.button1:hover {
+  background-color: #005755;
+}
+
+.h2 {
+  text-align: center;
+}
+
+.title1 {
+  font-family: 'Bernard MT Condensed', Bernard, serif;
+  color: #00928F;
+}
+
+.tagline {
+  font-family: cursive;
+  font-style: italic;
+  margin: auto;
+  font-size: 1em;
+}
+
+.bigTagline {
+  font-family: 'Cooper', Cooper, serif;
+  font-size: 2em;
+  font-weight: black;
+  margin: 0%;
+}
+
+.verse {
+  font-weight: bold;
+  margin-bottom: 3%;
+  font-size: 1em;
+}
+
+main {
+  padding: 20px;
+}
+
+.nameInput {
+  width: 90%;
+}
+
+.staffInput {
+  width: 90%;
+}
+
+.kcdioInput {
+  width: 90%;
+}
+
+.noInput {
+  width: 90%;
+}
+
+.emailInput {
+  width: 90%;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.amount {
+  width: 30px;
+  margin-right: 10px;
+  text-align: center;
+  background-color: rgb(235, 235, 235);
+}
+
+.amount2 {
+  width: 100px;
+}
+
+.form-section,
+.contact-info {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  margin: auto;
+  align-items: center;
+}
+
+label {
+  margin-bottom: 5px;
+}
+
+input,
+select {
+  margin-bottom: 15px;
+  padding: 8px;
+}
+
+button {
+  padding: 10px;
+  background-color: #D59F0F;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #97720b;
+}
