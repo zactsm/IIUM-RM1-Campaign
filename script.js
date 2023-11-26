@@ -10,10 +10,10 @@ function scrollToSection(section) {
   });
 }
 
-scrollToFormButton.addEventListener('click', function() {
+scrollToFormButton.addEventListener('click', function () {
   scrollToSection(formSection);
 });
 
-scrollToContactButton.addEventListener('click', function() {
+scrollToContactButton.addEventListener('click', function () {
   scrollToSection(contactSection);
 });
